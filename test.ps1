@@ -6,8 +6,8 @@ try
 {
 	write-host "Executing the exercise setup.ps1 files to make sure they are running properly." -ForegroundColor Black -BackgroundColor Green
 
-	git config --global --replace-all user.name "Tomi Peltonen"
-	git config --global --replace-all user.email "top@praqma.net"
+	git config --global --replace-all user.name "ReleasePraqma"
+	git config --global --replace-all user.email "release@praqma.net"
 	
 	Write-Host "Git user updated" -foregroundcolor blue
 		
